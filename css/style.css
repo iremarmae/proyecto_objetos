@@ -1,0 +1,55 @@
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+td {
+	color: orange;
+}
+
+.finDeSemana {
+	background-color: aqua;
+}
+
+.diasDeOtroMes {
+	border-width: medium;
+	border-color: red;
+}
+
+.festivo {
+	border-width: medium;
+	border-color: green;
+}
+
+.anonuevo {
+	background-color: blueviolet;
+	border-color: green;
+	border-left-color: red;
+	border-right-color: red;
+	border-width: medium;
+	text-align: center;
+}
+
+#cumpleJero {
+	color: red;
+	background-color: yellow;
+	text-align: center;
+}
+
+#cumpleOmar {
+	color: aqua;
+	background-color: blue;
+	text-align: center;
+}
