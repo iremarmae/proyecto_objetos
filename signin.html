@@ -16,20 +16,40 @@
 		}
 	</style>
 	<body>
-		Si quieres recibir la Newsletter con furgoconsejos, solo tienes que rellenar los datos a continuacion:
-		<br />
-		<form action="recoger_datos.php" method="post">
-			<div>
-				<label for="name">Nombre</label>
-				<input type="text" name="name" id="name" />
-			</div>
-			<div>
-				<label>Email:</label>
-				<input type="email" name="email" id="email" />
-			</div>
-			<div>
-				<input type="submit" value="Enviar" />
-			</div>
-		</form>
+		<nav>
+			<ul>	
+				<li><a class="active" href="./index.html" style="padding: 0;"><img src="./img/logo.jpg" style="width: 70px; height: 50px;"></a></li>
+				<li><a href="#news">Novedades</a></li>
+				<li style="background-color: #04aa6d" class="dropdown">
+					<a>Camperizar</a>
+					<div class="dropdown-content">
+						<a href="./limpieza.html">Limpieza</a>
+						<a href="./oxidos.html">Oxidos</a>
+						<a href="#">Aislamiento acustico</a>
+						<a href="#">Aislamiento térmico</a>
+					</div>
+				<li><a href="#contact">Contacto</a></li>
+				</li>
+				<li style="float: right"><a href="#about">Sobre nosotros</a></li>
+				<li style="float: right"><a href="./signin.html">Newsletter</a></li>
+			</ul>
+		</nav>
+		<section>
+			Si quieres recibir la Newsletter con furgoconsejos, solo tienes que rellenar los datos a continuacion:
+			<br />
+			<form action="recoger_datos.php" method="post">
+				<div>
+					<label for="name">Nombre</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div>
+					<label>Email:</label>
+					<input type="email" name="email" id="email" />
+				</div>
+				<div>
+					<input type="submit" value="Enviar" />
+				</div>
+			</form>
+		</section>
 	</body>
 </html>
