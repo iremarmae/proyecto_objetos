@@ -7,14 +7,6 @@
 		<title>Document</title>
 		<link rel="stylesheet" href="./css/navegador.css" />
 	</head>
-	<style>
-		div {
-			margin: 20px;
-		}
-		label {
-			margin-right: 10px;
-		}
-	</style>
 	<body>
 		<nav>
 			<ul>	
@@ -37,15 +29,17 @@
 		<section>
 			Si quieres recibir la Newsletter con furgoconsejos, solo tienes que rellenar los datos a continuacion:
 			<br />
-			<form action="recoger_datos.php" method="post">
+			<form action="recoger_datos.php" method="post" style="margin: 10px;">
 				<div>
 					<label for="name">Nombre</label>
 					<input type="text" name="name" id="name" />
 				</div>
+				<br>
 				<div>
 					<label>Email:</label>
 					<input type="email" name="email" id="email" />
 				</div>
+				<br>
 				<div>
 					<input type="submit" value="Enviar" />
 				</div>
