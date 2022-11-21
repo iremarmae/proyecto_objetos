@@ -1,0 +1,19 @@
+body {
+	background-color: orangered;
+}
+section {
+	margin: 20px;
+	padding: 20px;
+	background-color: #f9f9f9;
+}
+.titulo {
+	border-radius: 5px;
+	text-align: center;
+	color: orangered;
+}
+.bordeRedondo {
+	border-radius: 5px;
+}
+.presentacion {
+	text-align: center;
+}
