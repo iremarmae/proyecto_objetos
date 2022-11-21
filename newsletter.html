@@ -9,8 +9,12 @@
 	</head>
 	<body>
 		<nav>
-			<ul>	
-				<li><a class="active" href="./index.html" style="padding: 0;"><img src="./img/logo.jpg" style="width: 70px; height: 50px;"></a></li>
+			<ul>
+				<li>
+					<a class="active" href="./index.html" style="padding: 0">
+						<img src="./img/logo.jpg" style="width: 70px; height: 50px"
+					/></a>
+				</li>
 				<li><a href="#news">Novedades</a></li>
 				<li style="background-color: #04aa6d" class="dropdown">
 					<a>Camperizar</a>
@@ -20,8 +24,8 @@
 						<a href="#">Aislamiento acustico</a>
 						<a href="#">Aislamiento térmico</a>
 					</div>
-				<li><a href="#contact">Contacto</a></li>
 				</li>
+				<li><a href="#contact">Contacto</a></li>
 				<li style="float: right"><a href="#about">Sobre nosotros</a></li>
 				<li style="float: right"><a href="./newsletter.html">Newsletter</a></li>
 			</ul>
@@ -29,21 +33,22 @@
 		<section>
 			Si quieres recibir la Newsletter con furgoconsejos, solo tienes que rellenar los datos a continuacion:
 			<br />
-			<form action="newsletter_datos.php" method="post" style="margin: 10px;">
+			<form action="newsletter_datos.php" method="post" style="margin: 10px">
 				<div>
 					<label for="name">Nombre</label>
 					<input type="text" name="name" id="name" />
 				</div>
-				<br>
+				<br />
 				<div>
 					<label>Email:</label>
 					<input type="email" name="email" id="email" />
 				</div>
-				<br>
+				<br />
 				<div>
 					<input type="submit" value="Enviar" />
 				</div>
 			</form>
 		</section>
+		<section class="contacto" id="contact">MAIL: fragonetti@blablabla.com</section>
 	</body>
 </html>

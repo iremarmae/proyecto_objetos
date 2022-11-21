@@ -16,6 +16,7 @@
             echo 'Error: Falta email';
             exit ;
         }
+
         $nombre=$_POST['nombre'];
         $email=$_POST['email'];
 
