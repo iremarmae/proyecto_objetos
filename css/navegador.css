@@ -9,13 +9,18 @@ section {
 .titulo {
 	border-radius: 5px;
 	text-align: center;
-	color: orangered;
+	color: #04aa6d;
+	font-size: x-large;
+	padding: 0px;
 }
 .bordeRedondo {
 	border-radius: 5px;
 }
-.presentacion {
-	text-align: center;
+.contacto {
+	cursor: pointer;
+	text-align: justify;
+	background-color: orangered;
+	color: white;
 }
 a {
 	cursor: pointer;
@@ -38,6 +43,7 @@ li a {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	font-size: large;
 }
 
 .active {
@@ -46,7 +52,7 @@ li a {
 
 li a:hover,
 .dropdown:hover .dropbtn {
-	background-color: green;
+	color: orangered;
 }
 
 li .dropdown {
