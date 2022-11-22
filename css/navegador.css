@@ -1,6 +1,9 @@
 body {
 	background-color: orangered;
 }
+[class*="col-"] {
+	width: 100%;
+}
 section {
 	margin: 20px;
 	padding: 20px;
