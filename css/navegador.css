@@ -27,6 +27,7 @@ label {
 }
 a {
 	cursor: pointer;
+	color: #04aa6d;
 }
 ul {
 	list-style-type: none;
