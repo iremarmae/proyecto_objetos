@@ -6,6 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="./css/navegador.css" />
+
+		<script>
+			function subscribe() {
+				getname = prompt("Escribe tu mail otra vez si estas seguro de enviar tus datos");
+				alert("Gracias! Pronto recibiràs noticias nuestras!");
+			}
+		</script>
 	</head>
 	<body>
 		<nav>
@@ -20,7 +27,7 @@
 					<a>Camperizar</a>
 					<div class="dropdown-content">
 						<a href="./limpieza.html">Desmontaje y limpieza</a>
-						<a href="./oxidos.html">Oxidos</a>
+						<a href="./oxidos.html">Óxidos</a>
 					</div>
 				</li>
 				<li><a href="#contact">Contacto</a></li>
@@ -29,24 +36,34 @@
 			</ul>
 		</nav>
 		<section class="bordeRedondo">
-			Si quieres recibir la Newsletter con furgoconsejos, solo tienes que rellenar los datos a continuacion:
-			<br />
+			<h1 style="color: #04aa6d">SUBSCRIBETE A LA NEWSLETTER</h1>
+			<div>
+				<b>
+					<p>Si quieres recibir las novedades de la camperización, así como furgoconsejos extra...</p>
+					<p>Solo tienes que rellenar y enviarnos tus datos a través de éste formulario:</p>
+				</b>
+			</div>
 			<form action="newsletter_datos.php" method="post" style="margin: 10px">
 				<div>
 					<label for="name">Nombre</label>
-					<input type="text" name="name" id="name" />
+					<input type="text" name="name" id="name" placeholder="Còmo te llamas?" required />
 				</div>
 				<br />
 				<div>
 					<label>Email:</label>
-					<input type="email" name="email" id="email" />
+					<input type="email" name="email" id="email" placeholder="tuemail@ejemplo.com" required />
 				</div>
 				<br />
-				<div>
-					<input type="submit" value="Enviar" />
-				</div>
+				<button onclick="subscribe()">Enviar</button>
 			</form>
 		</section>
-		<section class="contacto" id="contact">CONTACTO (MAIL): fragonetti@blablabla.com</section>
+		<section class="contacto" id="contact">
+			CONTACTO (MAIL): fragonetti@blablabla.com
+			<footer style="float: right">
+				Coded by
+				<a href="https://www.instagram.com/iremarmae/"><button>Irene Martinez</button></a>
+			</footer>
+		</section>
+		</section>
 	</body>
 </html>

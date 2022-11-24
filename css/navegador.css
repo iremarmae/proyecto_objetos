@@ -17,7 +17,6 @@ section {
 	border-radius: 5px;
 }
 .contacto {
-	cursor: pointer;
 	text-align: justify;
 	background-color: orangered;
 	color: white;
@@ -87,4 +86,40 @@ li .dropdown {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
 	display: block;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+td {
+	color: #04aa6d;
+}
+
+.finDeSemana {
+	border-radius: 2px;
+	border-color: orangered;
+	border-width: medium;
+}
+
+#InicioFin {
+	color: white;
+	background-color: orangered;
+	text-align: center;
+}
+.diasDeOtroMes {
+	color: orangered;
 }
