@@ -16,4 +16,4 @@
 
 ### UML
 
-![UML](./doc/UML.jpeg)
+![UML](./doc/uml.jpg)
